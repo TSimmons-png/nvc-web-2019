@@ -1,0 +1,29 @@
+@use 'vendor/_normalize';
+@use 'partials/_colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #150300;
+  font-family: Verdana;
+  font-size: 20px;
+  color: #CDCDCD;
+  li{
+    display: inline;
+  }
+}
+
+a {
+      color: #CDCDCD;
+      text-decoration: none;
+          padding: 14px 16px;
+      &:hover {
+      text-decoration: underline;
+      } 
+    } 
+
+    
